@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.students.list.StudentListController">
+   <children>
+      <TableView fx:id="tbStudent" layoutX="29.0" layoutY="79.0" prefHeight="274.0" prefWidth="545.0">
+        <columns>
+          <TableColumn fx:id="tdId" prefWidth="77.0" text="id" />
+          <TableColumn fx:id="tdName" prefWidth="163.0" text="name" />
+            <TableColumn fx:id="tdEmail" prefWidth="185.0" text="email" />
+            <TableColumn fx:id="tdTel" prefWidth="118.0" text="tel" />
+        </columns>
+      </TableView>
+      <Button layoutX="29.0" layoutY="14.0" mnemonicParsing="false" text="&lt;&lt;Back" />
+      <Button layoutX="468.0" layoutY="14.0" mnemonicParsing="false" text="New Student" />
+   </children>
+</Pane>

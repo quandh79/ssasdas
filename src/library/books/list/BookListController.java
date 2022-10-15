@@ -66,7 +66,7 @@ public class BookListController implements Initializable {
     }
 
     public void back(javafx.event.ActionEvent actionEvent) throws Exception{
-        Parent listBook = FXMLLoader.load(getClass().getResource("home.fxml"));
+        Parent listBook = FXMLLoader.load(getClass().getResource("/library/home.fxml"));
         Main.rootStage.setTitle("Books");
         Main.rootStage.setScene(new Scene(listBook, 800, 600));
     }
